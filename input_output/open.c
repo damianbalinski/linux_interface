@@ -6,7 +6,7 @@
 
 int main()
 {
-    printf("Hello!\n");
+    printf("Hello world!\n");
 
     int fd;
     fd = open("temp.txt", O_WRONLY | O_CREAT);
