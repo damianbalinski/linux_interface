@@ -1,6 +1,10 @@
-//#include <stdio.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
 #include <unistd.h>
 #include <errno.h>
+#include <limits.h>
+
 int main(void)
 {
     size_t a;
@@ -12,4 +16,8 @@ int main(void)
     EINTR;
 
     tell(0);
+    //off64_t abc;
+    //ARG_MAX;
+    INT_MAX;
+
 }
