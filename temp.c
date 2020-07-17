@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include <errno.h>
 #include <limits.h>
+#include <shadow.h>
 
 int main(void)
 {
